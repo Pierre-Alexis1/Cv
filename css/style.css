@@ -1,0 +1,95 @@
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+  background-color: #F5F5F5;
+  -webkit-print-color-adjust:exact;
+}
+
+#sidebar
+{
+	border-right: 1px solid #B6B6B6;
+	box-shadow: 0px 0px 5px #B6B6B6;
+}
+
+#sidebar>h4
+{
+	border-bottom: 1px solid #C0C0FF;
+}
+
+.text-white
+{
+  color: #FFFFFF;
+}
+
+.text-big
+{
+  font-size: 1.5em;
+}
+
+.space-12
+{
+  height: 12px;
+}
+
+.space-24
+{
+  height: 24px;
+}
+
+.padding-top-6
+{
+  padding-top: 6px;
+}
+
+.panel .section
+{
+  border-bottom: #F0F0F0 1px solid;
+  padding-bottom: 12px;
+}
+
+.panel .section:last-child
+{
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#skills .section
+{
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#skills .section:first-child
+{
+	padding-top: 0px;
+}
+
+#skills .section:last-child
+{
+	padding-bottom: 0px;
+}
+
+@media print 
+{
+	@page 
+	{
+		size: 330mm 427mm;
+		margin: 14mm;
+	}
+
+	.container 
+	{
+		width: 1156px;
+		padding-right: 0px;
+	}
+  
+	#sidebar
+	{
+		border-right: 1px solid #B6B6B6;
+	}
+}
